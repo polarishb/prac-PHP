@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-width: 1200px;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration-line: none;
+    color: #333333;
+}
+/* header */
+
+header {
+    background-color: #333333;
+    height: 50px;
+}
+
+/* Navigation */
+
+nav {
+    height: 11rem;
+    border-bottom: 1px solid #c8c8c8;
+    background-color: #ffffff;
+}
+
+h1 > span {
+    position: relative;
+    float: left;
+}
+
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+.corp_name {
+    float: left;
+    position: relative;
+    left: 3%;
+    top: 1rem;
+    font-size: 4rem;
+}
+
+.nav_menu {
+    width: 800px;
+    position: absolute;
+    left: 33.5rem;
+    top: 2rem;
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+.nav_menu > ul > li {
+    padding: 1rem;
+}
+.login_menu {
+    float: right;
+    position: relative;
+    top: 6rem;
+    right: 3%;
+    font-size: 1.5rem;
+}
+
+.login_menu > li {
+    padding: 0.5rem;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > p {
+    width: auto;
+    height: 70rem;
+    display: flex;
+    align-items: center;
+    font-size: 8rem;
+}
+
+/* Login Page */
+
+.login_wrap {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+.login_section {
+    background-color: #ffffff;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #c8c8c8;
+    border-radius: 5px;
+}
+
+.login_form {
+    padding: 10px;
+}
+
+.input_box {
+    padding: 10px;
+}
+
+.input_box > input {
+    width: 30rem;
+    height: 5rem;
+    font-size: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;;
+    border-bottom: solid 3px #333333;
+}
+
+.login_form > button {
+    width: 30rem;
+    height: 5rem;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 10px;
+    top: 3rem;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.noid {
+    width: 10rem;
+    height: 5rem;
+    display: flex;
+    position: absolute;
+    top: 60rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: lightskyblue;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+/*  Signup Page */
+
+.signup_wrap {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+.signup_wrap > .return {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #8c8c8c;
+}
+
+.signup_section {
+    background-color: #ffffff;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #c8c8c8;
+    border-radius: 5px;
+}
+
+.signup_form {
+    padding: 10px;
+}
+
+.input_box > select {
+    width: 30rem;
+    height: 5rem;
+    font-size: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;;
+    border-bottom: solid 3px #333333;
+}
+
+.signup_form > button {
+    width: 30rem;
+    height: 5rem;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 10px;
+    top: 3rem;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 50px; /* footer의 높이 */
+    position: absolute;  
+    bottom: 0;
+    left: 0;
+    background-color: #f0f0f0;
+    border-top: solid 1px #c8c8c8
+}
+
+/* table */
+
+table {
+    position: absolute;
+    width: 70%;
+    border: solid 1px #c8c8c8;
+    background-color: white;
+    font-size: 2rem;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+  }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Koopang | 사내 내부망 - 회원가입</title>
+</head>
+<body>
+    <div class="signup_wrap">
+        <div class="return" onclick="location.href='login.html'">
+            <
+        </div>
+            <section class="signup_section">
+                <!--form Start-->
+                <form class="signup_form" action="signup.php" method="post">
+                    <div class="input_box">
+                        <input id="inputId" type="text" class="input-default" name="id" placeholder="ID" pattern="^[a-zA-Z0-9]{5,16}$" title="5글자 이상 16글자 이하 영어 대소문자와 숫자만 입력할 수 있습니다."/>
+                    </div>
+                    <div class="input_box">
+                        <input id="inputPw" type="password" class="input-default" name="password" placeholder="PASSWORD" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,16}$" title="8글자 이상 16글자 사이로 영어 대소문자, 숫자, 특수문자를 조합해서 입력하세요."/>
+                    </div>
+                    <div class="input_box">
+                        <input id="inputName" type="text" name="name" placeholder="홍길동" pattern="^[가-힣]{2,4}$" title="2글자 이상 4글자 이하 한글만 입력할 수 있습니다." />
+                    </div>
+                    <div class="input_box">
+                        <select name="department">
+                            <option value="영업">영업팀</option>
+                            <option value="물류">물류팀</option>
+                            <option value="인사">인사팀</option>
+                            <option value="IT">IT팀</option>
+                        </select>
+                    </div>
+                    <button type="submit" id="signupBtn" class="btn primary">회원가입</button>
+                </form>
+                <!--form End-->
+            </section>
+    </div>
+</body>
+</html>
